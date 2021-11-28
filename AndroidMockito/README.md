@@ -30,6 +30,9 @@
 
 ### Test Doubles Types
 #### Dummy
+* When we do the unit testing the class may be depend on external dependencies,it may happen when we are testing one of the methods of class under test, one or two dependencies doesnot play any role ,so those two dependencies doesnot perform any role but still they come into picture . So while unit testing them we create dummies out of it and the dummies does not have any business logic
+* It is an object that is used only for code to compile.
+* For example, an object passed as a parameter to constructor . It is passed just to make code compile. 
 #### Fake
 * Fake objects are usually light weight objects only for testing. They have working implementation, but not as actual production object.
 * Fake objects have functional implementation but its in very basic form.

@@ -1,6 +1,6 @@
 package com.mockito.android.test_doubles.fake_test_doubles
 
-interface BookRepository {
+interface IBookRepository {
 
     fun saveBook(book: Book)
 

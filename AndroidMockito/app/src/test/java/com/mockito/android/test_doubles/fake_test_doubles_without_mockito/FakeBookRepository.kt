@@ -1,9 +1,9 @@
-package com.mockito.android.test_doubles.fake_test_doubles.repository
+package com.mockito.android.test_doubles.fake_test_doubles_without_mockito
 
 import com.mockito.android.test_doubles.fake_test_doubles.Book
-import com.mockito.android.test_doubles.fake_test_doubles.BookRepository
+import com.mockito.android.test_doubles.fake_test_doubles.IBookRepository
 
-class FakeBookRepository : BookRepository {
+class FakeBookRepository : IBookRepository {
 
     // In memory database Hashmap or list
     private val bookStore : HashMap<String, Book> = HashMap()
