@@ -8,6 +8,9 @@
 ### General info
 * In this repo you will find Mockito examples.
 * I follow this you tube link for creating all the examples .You tube link : https://www.youtube.com/watch?v=53fncREn8k0&list=PL6Zs6LgrJj3vy7yWpH9xb3Y0I_pAPrvCU
+* Few links which are helpful to understand the concepts
+  1- https://www.codurance.com/publications/2019/04/08/introduction-to-test-doubles
+  2- https://dotnetcoretutorials.com/2021/06/19/mocks-vs-stubs-vs-fakes-in-unit-testing
 
 ### Unit Testing
 * A unit test is a piece of code written by a developer to test certain functionality of code.
@@ -40,6 +43,9 @@
 #### Stub
 * Stub objects provides predefined answers to method execution made during test.
 * A stub is an implementation that returns hardcoded responses.
+It provides fake data to the SUT (System Under Test).
 * For example, instead of calling actual service, stub is called and it returns back an expected response.
 #### Spy
+* It records information about how the class is being used.
+* The spy can tell the test what parameters it was given, how many times it was called, and what, if any, the return value was.
 #### Mock
