@@ -1,12 +1,10 @@
-package com.mockito.android.test_doubles.fake_test_doubles.repository
+package com.mockito.android.test_doubles.fake_test_doubles
 
-import com.mockito.android.test_doubles.fake_test_doubles.Book
-import com.mockito.android.test_doubles.fake_test_doubles.BookService
-import com.mockito.android.test_doubles.fake_test_doubles_without_mockito.FakeBookRepository
+
 import org.junit.Assert.assertEquals
 import org.junit.Test
 import java.time.LocalDate
-
+import com.mockito.android.test_doubles.fake_test_doubles.Book
 
 class FakeBookServiceTest {
 

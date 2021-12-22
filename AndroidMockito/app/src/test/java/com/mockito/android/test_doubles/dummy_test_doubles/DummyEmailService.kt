@@ -1,6 +1,5 @@
-package com.mockito.android.test_doubles.dummy_test_doubles_without_mockito
+package com.mockito.android.test_doubles.dummy_test_doubles
 
-import com.mockito.android.test_doubles.dummy_test_doubles.IEmailService
 import java.lang.AssertionError
 
 class DummyEmailService : IEmailService {

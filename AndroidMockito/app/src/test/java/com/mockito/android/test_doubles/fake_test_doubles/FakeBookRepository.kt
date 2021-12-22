@@ -1,8 +1,6 @@
-package com.mockito.android.test_doubles.fake_test_doubles_without_mockito
+package com.mockito.android.test_doubles.fake_test_doubles
 
 import com.mockito.android.test_doubles.fake_test_doubles.Book
-import com.mockito.android.test_doubles.fake_test_doubles.IBookRepository
-
 class FakeBookRepository : IBookRepository {
 
     // In memory database Hashmap or list

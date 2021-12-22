@@ -4,7 +4,7 @@ import com.mockito.android.test_doubles.dummy_test_doubles.Book
 import com.mockito.android.test_doubles.dummy_test_doubles.BookService
 import com.mockito.android.test_doubles.dummy_test_doubles.IBookRepository
 import com.mockito.android.test_doubles.dummy_test_doubles.IEmailService
-import com.mockito.android.test_doubles.dummy_test_doubles_without_mockito.DummyEmailService
+import com.mockito.android.test_doubles.dummy_test_doubles.DummyEmailService
 import org.junit.Assert.assertEquals
 import org.junit.Test
 import java.time.LocalDate

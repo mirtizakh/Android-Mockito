@@ -1,6 +1,6 @@
 package com.mockito.android.test_doubles.dummy_test_doubles
 
-class BookService(var bookRepository: IBookRepository,var emailService: IEmailService) {
+class BookService(var bookRepository: IBookRepository, var emailService: IEmailService) {
 
     fun addBook(book: Book) {
         bookRepository.saveBook(book)

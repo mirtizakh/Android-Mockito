@@ -1,7 +1,7 @@
 package com.mockito.android.activity
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.mockito.android.R
 
 class MainActivity : AppCompatActivity() {

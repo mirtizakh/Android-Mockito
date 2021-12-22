@@ -29,14 +29,17 @@
 * Example : Think of a Stunt Double in a movie which replaces actor whenever actor is not available or actor needs to perform dangerous actions etc.
 
 ### Test Doubles Types
-#### Dummy
-* When we do the unit testing the class may be depend on external dependencies,it may happen when we are testing one of the methods of class under test, one or two dependencies doesnot play any role ,so those two dependencies doesnot perform any role but still they come into picture . So while unit testing them we create dummies out of it and the dummies does not have any business logic
-* It is an object that is used only for code to compile.
-* For example, an object passed as a parameter to constructor . It is passed just to make code compile. 
 #### Fake
 * Fake objects are usually light weight objects only for testing. They have working implementation, but not as actual production object.
 * Fake objects have functional implementation but its in very basic form.
 * For example, instead of actual production database we can use an (in-memory database, hashmap or list) in test.
+#### Dummy
+* When we do the unit testing the class may be depend on external dependencies,it may happen when we are testing one of the methods of class under test, one or two dependencies doesnot play any role ,so those two dependencies doesnot perform any role but still they come into picture . So while unit testing them we create dummies out of it and the dummies does not have any business logic
+* It is an object that is used only for code to compile.
+* For example, an object passed as a parameter to constructor . It is passed just to make code compile.
+#### Stub
+* Stub objects provides predefined answers to method execution made during test.
+* A stub is an implementation that returns hardcoded responses.
+* For example, instead of calling actual service, stub is called and it returns back an expected response.
 #### Spy
 #### Mock
-#### Stub
