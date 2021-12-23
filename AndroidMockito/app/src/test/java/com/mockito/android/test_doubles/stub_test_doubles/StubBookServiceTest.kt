@@ -1,9 +1,9 @@
 package com.mockito.android.test_doubles.stub_test_doubles
 
-import org.junit.Assert.*
+import org.junit.Assert.assertEquals
 import org.junit.Test
 
-class StubBookServiceTest{
+class StubBookServiceTest {
     @Test
     fun test_StubTestDouble() {
         val bookRepository = StubBookRepository()
