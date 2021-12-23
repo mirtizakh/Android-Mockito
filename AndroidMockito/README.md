@@ -49,4 +49,7 @@ It provides fake data to the SUT (System Under Test).
 * It records information about how the class is being used.
 * The spy can tell the test what parameters it was given, how many times it was called, and what, if any, the return value was.
 #### Mock
+* Mocks are objects that you can say what they are expecting to receive.
+They are used to verify the behaviour between the System Under Test and its collaborators.
+* You set your expectations, call the method of the SUT and verify if the method was called at the end.
 * Mock are not used for checking function behaviour or return values from the function call.
