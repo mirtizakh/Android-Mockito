@@ -49,3 +49,4 @@ It provides fake data to the SUT (System Under Test).
 * It records information about how the class is being used.
 * The spy can tell the test what parameters it was given, how many times it was called, and what, if any, the return value was.
 #### Mock
+* Mock are not used for checking function behaviour or return values from the function call.
