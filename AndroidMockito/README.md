@@ -52,16 +52,21 @@ It provides fake data to the SUT (System Under Test).
 * The spy can tell the test what parameters it was given, how many times it was called, and what, if any, the return value was.
 #### Mock
 * Mocks are objects that you can say what they are expecting to receive.
-They are used to verify the behaviour between the System Under Test and its collaborators.
+  They are used to verify the behaviour between the System Under Test and its collaborators.
 * You set your expectations, call the method of the SUT and verify if the method was called at the end.
 * Mock are not used for checking function behaviour or return values from the function call.
 
 ### Mocking
 * Mocking help us in testing the class in isolation.
 * So when we introduce mocking what happens that the class tested in isolation and we
-don't go over the external dependencies.
+  don't go over the external dependencies.
 
 ### Mockito
 * Mockito is an open source testing framework for java.
 * The framework allows the creation of test doubles objects (mock objects) for unit testing.
-It uses Java Reflection in order to create mock objects.
+  It uses Java Reflection in order to create mock objects.
+* It saves developers from writing test doubles or mock objects on their own.
+* It has support for exception handling.
+* It has support for stubbing methods. It help us in returning configured response.
+* It can also check order of method calls and number of times meod being called.
+* Annotation support.
