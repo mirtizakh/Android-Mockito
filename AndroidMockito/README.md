@@ -4,6 +4,8 @@
 * [What makes a good Unit Test](#Good-Unit-Test)
 * [Test Doubles](#Test-Doubles)
 * [Types of Test Doubles](#Test-Doubles-Types)
+* [Mocking](#Mocking)
+* [Mockito](#Mockito)
 
 ### General info
 * In this repo you will find Mockito examples.
@@ -53,3 +55,13 @@ It provides fake data to the SUT (System Under Test).
 They are used to verify the behaviour between the System Under Test and its collaborators.
 * You set your expectations, call the method of the SUT and verify if the method was called at the end.
 * Mock are not used for checking function behaviour or return values from the function call.
+
+### Mocking
+* Mocking help us in testing the class in isolation.
+* So when we introduce mocking what happens that the class tested in isolation and we
+don't go over the external dependencies.
+
+### Mockito
+* Mockito is an open source testing framework for java.
+* The framework allows the creation of test doubles objects (mock objects) for unit testing.
+It uses Java Reflection in order to create mock objects.
